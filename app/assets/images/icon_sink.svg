@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="88px" viewBox="0 0 100 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_sink" transform="translate(21.000000, 2.000000)" stroke="#000000" stroke-width="4">
+            <path d="M23,40 L23,84 L35,84 L35,40 L23,40 Z" id="Rectangle"></path>
+            <path d="M55.9990797,17.2136189 C55.8478625,17.1057684 55.5887776,16.9775096 55.2317491,16.8522316 C54.2765956,16.5170772 52.8617786,16.2814375 51.1072966,16.1465293 C49.5646947,16.0279132 48.2382592,16 46,16 C39.9119217,16 39.9119217,16 29,16 C15.3333333,16 15.3333333,16 9,16 C5.79051692,16 4.45180134,16.0594985 3.24636092,16.3273741 C2.2010192,16.5596723 2,16.7319745 2,17 C2,30.6915101 13.3158714,40 29,40 C44.6024226,40 55.8819821,30.788242 55.9990797,17.2136189 Z" id="Oval"></path>
+            <path d="M23,15 L23,5.5 C23,2.46243388 25.4624339,5.57991845e-16 28.5,0 C31.5375661,-5.57991845e-16 34,2.46243388 34,5.5 L34,8 L34,8" id="Path-2" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

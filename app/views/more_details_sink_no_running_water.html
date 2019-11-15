@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/what_needs_fixing_collapsed.html">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">Tell us more details about the problem with your sink</h1>
+
+      <form class="form" action="/url/of/next/page" method="post">
+    </div>
+  </div>
+
+        <div>
+            <a href="/more_details_sink_no_running_water_selected.html">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                <img src="/public/images/icon_blocked.svg" alt="Sink" style="margin: 30px;">
+                <p class="govuk-body govuk-!-font-weight-bold">Blocked</p>
+              </div>
+            </a>
+
+            <a href="more_details_sink_no_running_water_selected.html">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-bottom: 50px; margin-right: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_no_running_water.svg" alt="Toilet" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">No running water</p>
+              </div>
+            </a>
+        </div>
+
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <p>
+      <a href="/what_needs_fixing_expanded.html" role="button" draggable="false" class="govuk-button"  data-module="govuk-button">
+        Continue
+      </a>
+      </p>
+
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

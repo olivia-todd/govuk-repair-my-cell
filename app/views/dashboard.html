@@ -1,0 +1,238 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Your repairs
+      </h1>
+      <p>
+        Check the progress of issues you have reported.
+      </p>
+
+      <a href="/what_needs_fixing_collapsed.html" role="button" draggable="false" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8"  data-module="govuk-button">
+        Report a new issue
+        <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+          <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path>
+        </svg>
+      </a>
+
+    </div>
+</div>
+
+<div style="display:table; width:100%; margin:0 auto; margin: 0px 0px 20px 0px;">
+    <div style="display:table-row; margin: 0px;">
+
+      <div style="width: 82%; float: left; text-align: left;">
+          <p>
+            <strong>
+              You have reported 3 issues
+            </strong>
+          </p>
+      </div>
+
+      <div style="width: 17%; float: right; text-align: right;">
+        <a href="/dashboard_show_fixed.html">
+        <div class="govuk-checkboxes">
+          <div class="govuk-checkboxes__item" style="padding:0;">
+            <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+              <label class="govuk-label govuk-checkboxes__label" for="waste">
+                Show fixed
+              </label>
+          </div>
+        </div>
+      </a>
+      </div>
+
+    </div>
+</div>
+
+<div style="border: 1px solid #B1B4B6; padding: 10px 20px 0px 20px";>
+
+    <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Repair number
+          </dt>
+          <dd class="govuk-summary-list__value">
+            000123
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Date reported
+          </dt>
+          <dd class="govuk-summary-list__value">
+            22 October 2019
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Description
+            </dt>
+            <dd class="govuk-summary-list__value">
+              Sink
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                Details
+              </dt>
+              <dd class="govuk-summary-list__value">
+                No running water
+              </dd>
+            </div>
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">
+                Status
+              </dt>
+              
+                  <div class="hmcts-progress-bar" style="margin-top: 10px; margin-bottom: 0px; padding-bottom: 30px; border-bottom: 1px solid #b1b4b6;">
+                      <ol class="hmcts-progress-bar__list">
+                      
+                      <li class="hmcts-progress-bar__list-item">
+                        <span class="hmcts-progress-bar__icon hmcts-progress-bar__icon--complete">
+                          <img src="/public/images/icon_tick.svg">
+                        </span>
+                        <span class="hmcts-progress-bar__label">Issue has been logged</span>
+                      </li>
+                      
+                      <li class="hmcts-progress-bar__list-item" aria-current="step">
+                        <span class="hmcts-progress-bar__icon"></span>
+                        <span class="hmcts-progress-bar__label">Officer needs to verify</span>
+                      </li>
+                      
+                      <li class="hmcts-progress-bar__list-item">
+                        <span class="hmcts-progress-bar__icon"></span>
+                        <span class="hmcts-progress-bar__label">Fix is being prepared</span>
+                      </li>
+                      
+                      </ol>
+                    </div> 
+            </dl>
+      </div>
+
+      <div style="border: 1px solid #B1B4B6; margin-top: 50px; padding: 10px 20px 0px 20px";>
+
+          <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+              <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">
+                  Repair number
+                </dt>
+                <dd class="govuk-summary-list__value">
+                  000108
+                </dd>
+              </div>
+              <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">
+                  Date reported
+                </dt>
+                <dd class="govuk-summary-list__value">
+                  19 October 2019
+                </dd>
+              </div>
+              <div class="govuk-summary-list__row">
+                  <dt class="govuk-summary-list__key">
+                    Description
+                  </dt>
+                  <dd class="govuk-summary-list__value">
+                    Curtains
+                  </dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">
+                      Details
+                    </dt>
+                    <dd class="govuk-summary-list__value">
+                      Velcro required
+                    </dd>
+                  </div>
+                  <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">
+                      Status
+                    </dt>
+                    
+                        <div class="hmcts-progress-bar" style="margin-top: 10px; margin-bottom: 0px; padding-bottom: 30px; border-bottom: 1px solid #b1b4b6;">
+                            <ol class="hmcts-progress-bar__list">
+                            
+                            <li class="hmcts-progress-bar__list-item">
+                              <span class="hmcts-progress-bar__icon hmcts-progress-bar__icon--complete" style="text-align: center">
+                                <img src="/public/images/icon_tick.svg" alt="tick">
+                              </span>
+                              <span class="hmcts-progress-bar__label">Issue has been logged</span>
+                            </li>
+
+                            <li class="hmcts-progress-bar__list-item">
+                                <span class="hmcts-progress-bar__icon hmcts-progress-bar__icon--complete">
+                                  <img src="/public/images/icon_tick.svg">
+                                </span>
+                                <span class="hmcts-progress-bar__label">Officer needs to verify</span>
+                              </li>
+                            
+                            <li class="hmcts-progress-bar__list-item" aria-current="step">
+                              <span class="hmcts-progress-bar__icon"></span>
+                              <span class="hmcts-progress-bar__label">Fix is being prepared</span>
+                            </li>
+                            
+                            </ol>
+                          </div> 
+                  </dl>
+            </div>
+
+            <div style="border: 1px solid #B1B4B6; margin-top: 50px; padding: 10px 20px 0px 20px";>
+
+                <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+                    <div class="govuk-summary-list__row">
+                      <dt class="govuk-summary-list__key">
+                        Repair number
+                      </dt>
+                      <dd class="govuk-summary-list__value">
+                        000094
+                      </dd>
+                    </div>
+                    <div class="govuk-summary-list__row">
+                      <dt class="govuk-summary-list__key">
+                        Date reported
+                      </dt>
+                      <dd class="govuk-summary-list__value">
+                        8 September 2019
+                      </dd>
+                    </div>
+                    <div class="govuk-summary-list__row">
+                        <dt class="govuk-summary-list__key">
+                          Description
+                        </dt>
+                        <dd class="govuk-summary-list__value">
+                          Toilet
+                        </dd>
+                      </div>
+                      <div class="govuk-summary-list__row">
+                          <dt class="govuk-summary-list__key">
+                            Details
+                          </dt>
+                          <dd class="govuk-summary-list__value">
+                            Blocked
+                          </dd>
+                      </div>
+                      <div class="govuk-summary-list__row">
+                          <dt class="govuk-summary-list__key" style="vertical-align: top;">
+                            Status
+                          </dt>
+                          <dd class="govuk-summary-list__value">
+                            <div style="float: left; width: 32px; height: 32px; background-color: #00703C; border-radius: 16px; text-align: center">
+                              <img src="/public/images/icon_tick.svg" style="vertical-align: bottom">
+                            </div>
+                            <div style="float: left; margin-left: 10px;"><p>Fixed</p></div>
+                          </dd>
+                      </div>
+                  </div>
+
+  </div>
+
+{% endblock %}

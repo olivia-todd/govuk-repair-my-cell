@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Check your answers
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/more_details_sink_no_running_water.html">Back</a>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+      <h1 class="govuk-heading-xl">Check details</h1>
+
+      <div style="width: 100%; height: 130px; border-top: 1px solid #b1b4b6; border-bottom: 1px solid #b1b4b6; padding: 20px 0px;">
+        <div style="width: 49%; float: left;">
+          <h2 class="govuk-heading-m">What needs to be fixed</h2>
+          <p>Sink</p>
+          <p><a href="/what_needs_fixing_collapsed_selected.html">Change</a></p>
+         </div>
+
+         <div style="width: 49%; float: right;">
+          <p style="text-align: right;"><img src="/public/images/icon_sink.svg" style="padding-top: 15px; padding-bottom: 15px; border: 5px solid #0b0c0c;"></p>
+        </div>
+      </div>
+
+      <div style="width: 100%; height: 130px; border-bottom: 1px solid #b1b4b6; padding: 20px 0px; margin-bottom: 20px;">
+          <div style="width: 49%; float: left;">
+            <h2 class="govuk-heading-m">More details</h2>
+            <p>No running water</p>
+            <p><a href="/more_details_sink_no_running_water_selected.html">Change</a></p>
+           </div>
+  
+           <div style="width: 49%; float: right;">
+            <p style="text-align: right;"><img src="/public/images/icon_no_running_water.svg" style="padding-top: 15px; padding-bottom: 15px; border: 5px solid #0b0c0c;"></p>
+          </div>
+        </div>
+
+      <div class="govuk-warning-text">
+          <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+          <strong class="govuk-warning-text__text">
+            <span class="govuk-warning-text__assistive">Warning</span>
+            Misuse of this service, such as false reporting, may result in an adjudication.
+          </strong>
+        </div>
+
+      <form action="/confirmation" method="post" novalidate>
+
+        <input type="hidden" name="answers-checked" value="true">
+
+        <p>
+            <a href="/confirmation.html" role="button" draggable="false" class="govuk-button"  data-module="govuk-button">
+              Submit
+            </a>
+            </p>
+
+      </form>
+
+    </div>
+  </div>
+{% endblock %}

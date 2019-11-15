@@ -1,0 +1,126 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/index">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">What needs to be fixed?</h1>
+
+      <form class="form" action="/url/of/next/page" method="post">
+    </div>
+  </div>
+
+        <div>
+            <a href="/what_needs_fixing_expanded_selected.html">
+              <div class="item-needs-fixing-selected" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                <img src="/public/images/icon_sink.svg" alt="Sink" style="margin: 30px;">
+                <p class="govuk-body govuk-!-font-weight-bold">Sink</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_toilet.svg" alt="Toilet" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Toilet</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_shower.svg" alt="Shower" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Shower</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-bottom: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_heating.svg" alt="Heating" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Heating</p>
+              </div>
+            </a>
+        </div>
+
+        <div>
+            <a href="/sink_selected.html">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                <img src="/public/images/icon_power.svg" alt="Power" style="margin: 30px;">
+                <p class="govuk-body govuk-!-font-weight-bold">Power</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_curtains.svg" alt="Curtains" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Curtains</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_window.svg" alt="Window" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Window</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-bottom: 10px; text-align: center; float: left;">
+                  <img src="/public/images/icon_lighting.svg" alt="Lighting" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Lighting</p>
+              </div>
+            </a>
+        </div>
+
+        <div>
+            <a href="/sink_selected.html">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                <img src="/public/images/icon_bedframe.svg" alt="Bedframe" style="margin: 30px;">
+                <p class="govuk-body govuk-!-font-weight-bold">Bedframe</p>
+              </div>
+            </a>
+
+            <a href="/sink_selected.html">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-right: 10px; text-align: center; float: left;">
+                <img src="/public/images/icon_flooring.svg" alt="Flooring" style="margin: 30px;">
+                <p class="govuk-body govuk-!-font-weight-bold">Flooring</p>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="item-needs-fixing" style="width: 23%; height: 200px; margin-bottom: 50px; text-align: center; float: left;">
+                  <img src="/public/images/icon_other.svg" alt="Other" style="margin: 30px;">
+                  <p class="govuk-body govuk-!-font-weight-bold">Other</p>
+              </div>
+            </a>
+        </div>
+
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+        <p>
+          <a href="/what_needs_fixing_collapsed_selected.html" role="button" draggable="false" class="govuk-button govuk-button--secondary"  data-module="govuk-button">
+            Show less options
+          </a>
+        </p>
+      
+        <p>
+          <a href="/more_details_sink_no_running_water.html" role="button" draggable="false" class="govuk-button"  data-module="govuk-button">
+            Continue
+          </a>
+        </p>
+
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}
+</html>

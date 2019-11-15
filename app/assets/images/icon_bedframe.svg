@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="88px" viewBox="0 0 100 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_bedframe" transform="translate(0.000000, 14.000000)" stroke="#000000" stroke-width="4">
+            <path d="M2,2 L2,58 L9,58 L9,5.5 C9,3.56700338 7.43299662,2 5.5,2 L2,2 Z" id="Rectangle"></path>
+            <rect id="Rectangle-Copy-12" x="9" y="33" width="82" height="8"></rect>
+            <path d="M9,25 L9,33 L31.7999638,33 C30.8734231,28.4355194 26.8379158,25 22,25 L9,25 Z" id="Rectangle-Copy-13"></path>
+            <path d="M91,27 L91,58 L98,58 L98,27 L91,27 Z" id="Rectangle-Copy-11"></path>
+        </g>
+    </g>
+</svg>

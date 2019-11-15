@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="88px" viewBox="0 0 100 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M50,3 C72.6436747,3 91,21.3563253 91,44 C91,66.6436747 72.6436747,85 50,85 C27.3563253,85 9,66.6436747 9,44 C9,21.3563253 27.3563253,3 50,3 Z M75.8676971,26.9098544 L32.9098544,69.8676971 C37.8094014,73.1112221 43.6841268,75 50,75 C67.1208272,75 81,61.1208272 81,44 C81,37.6841268 79.1112221,31.8094014 75.8676971,26.9098544 Z M50,13 C32.8791728,13 19,26.8791728 19,44 C19,50.830635 21.2092061,57.1452822 24.9520812,62.2684044 L68.2684044,18.9520812 C63.1452822,15.2092061 56.830635,13 50,13 Z" id="icon_blocked" stroke="#000000" stroke-width="4"></path>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Confirmation page example
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <div class="govuk-panel govuk-panel--confirmation">
+        <h1 class="govuk-panel__title">Your issue has been logged</h1>
+      </div>
+
+      <h2 class="govuk-heading-m">What happens next</h2>
+      <p>An officer will confirm the details you have sent.</p>
+      <p>We aim to fix and repair issues as quickly as possible. However, we get lots of requests. Some are urgent and can change the priority of the work we are doing.</p>
+      <p>You can track the progress of the issue you have reported on your repairs dashboard.</p>
+     
+
+      <p>
+          <a href="/dashboard.html" role="button" draggable="false" class="govuk-button"  data-module="govuk-button">
+            Return to repairs dashboard
+          </a>
+      </p>
+
+
+    </div>
+  </div>
+
+{% endblock %}

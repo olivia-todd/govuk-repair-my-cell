@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="88px" viewBox="0 0 100 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_heating" transform="translate(19.000000, 7.000000)">
+            <path d="M23.0011917,49.2523632 C26.7423231,52.1559212 29,56.6377685 29,61.5 C29,70.0604136 22.0604136,77 13.5,77 C4.93958638,77 -2,70.0604136 -2,61.5 C-2,56.6373301 0.258085955,52.155128 3.99978082,49.2516078 L4,7.5 C4,2.25329488 8.25329488,-2 13.5,-2 C18.7467051,-2 23,2.25329488 23,7.49994291 L23.0011917,49.2523632 Z" id="Combined-Shape" stroke="#000000" stroke-width="4"></path>
+            <path d="M13.5,13 C15.4329966,13 17,14.5670034 17,16.5 L17.0010922,52.6659444 C20.5151348,54.0597997 23,57.4897142 23,61.5 C23,66.7467051 18.7467051,71 13.5,71 C8.25329488,71 4,66.7467051 4,61.5 C4,57.4893341 6.48533626,54.0591495 9.99990704,52.6655481 L10,16.5 C10,14.5670034 11.5670034,13 13.5,13 Z" id="Combined-Shape" fill="#000000"></path>
+            <path d="M38.5,3 C39.5,4.33333333 40,6.33333333 40,9 C40,13 36,15 36,19.5 C36,22.5 36.5,24.6666667 37.5,26" id="Path-8" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M49.5,3 C50.5,4.33333333 51,6.33333333 51,9 C51,13 47,15 47,19.5 C47,22.5 47.5,24.6666667 48.5,26" id="Path-8-Copy" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60.5,3 C61.5,4.33333333 62,6.33333333 62,9 C62,13 58,15 58,19.5 C58,22.5 58.5,24.6666667 59.5,26" id="Path-8-Copy-2" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
